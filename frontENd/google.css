@@ -1,0 +1,81 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menuIteam{
+    font-size: 13px;
+    color: black;
+    text-decoration: none;
+    position: relative;
+    top: -10px;
+    margin-right: 16px;
+
+}
+.menuIteam:hover{
+   border-bottom: 1px solid black;
+
+}
+#profil{
+    height: 32px;
+    width: 32px;
+    
+}
+
+nav{
+    padding-top: 12px;
+    text-align: right;
+    position:relative;
+    top: -8px;
+}
+#dropdown-menu{
+    position:relative;
+    top: -3px;
+    margin-right: 16px;
+}
+
+section{
+    text-align: center;
+    
+    margin-top: 150px;
+   
+}
+
+#input-box{
+    width: 400px;
+    padding-left: 30px;
+    height: 35px;
+    color: #222;
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 124px;
+    outline: none;
+
+}
+#voice{
+    height: 28px;
+    width: 32px;
+    position: relative;
+    top: -33px;
+    left: 180px;
+   
+    
+}
+.imgg{
+    
+    height: 24px;
+    width: 24px;
+    
+}
+.logos{
+    display: inline-block;
+
+   
+}
+.logos:hover{
+    background-color:lightslategray ;
+    cursor: pointer;
+}
+/* 
+main{
+    height: 100%;
+    width: 100%;
+} */

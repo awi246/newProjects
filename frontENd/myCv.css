@@ -1,0 +1,250 @@
+#menu{
+    width:100%;
+    height: 50px;
+    background:linear-gradient(to right , #b9bfca , #912077);
+    box-shadow: 5px -5px 8px rgb(43, 26, 6) ,-5px 5px 8px rgb(43, 26, 6);
+    color: white;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 15px;  
+    margin-bottom: 24px;
+    
+}
+header div{
+    float: right;
+}
+#burger-logo{
+    color: black;
+    top: 2px;
+    left: -20px;
+    margin-right: -5px;
+}
+div span{
+    margin-left: 24px;
+    position: relative;
+    top: 12px;
+
+}
+span:last-of-type{
+    margin-right: 24px;
+}
+#home{
+    position: relative;
+    top:12px;
+    left: 20px;
+   
+
+    float: left;
+}
+#home a{
+    color: white;
+    text-decoration:none;
+}
+#home a:hover{
+    cursor: pointer;
+    color: red;
+}
+body{
+    margin: 0;
+    background-color:black;
+}
+.img-logo{
+    width: 24px;
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+     
+}
+
+.intro {
+    width: 466px;
+    line-height: 16px;
+}
+
+
+
+.social {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   font-size: 20px;
+   position: relative;
+}
+.social a{
+color: #F0E3CA;
+
+}
+.btn1{
+   background-color:#FF8303;
+   padding: 10PX;
+   border-radius: 10px;
+   margin: 0 10px;
+}
+.mid{
+    display: flex;
+   justify-content: center;
+   position: relative;
+   top: 80px;  
+
+
+}
+#sec{
+    width: 100%;
+    height: 100vh;
+
+}
+#main-text{
+    
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+   
+}
+#main-text h1{
+    width: 100%;
+    max-width: 1100px;
+    font-size: 44px;
+    font-weight: 600;
+    letter-spacing: 8.8px;
+    line-height: 1.2;
+    text-align: center;
+    margin: 0;    
+}
+#main-text p{
+    width: 100%;
+    max-width: 1100px;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+    color: #8b8b99;
+    text-align: center;
+    padding-top: 32px; 
+}
+#main-text img{
+    
+    border-radius: 10px;
+    box-shadow: 5px 5px 8px blue , +5px -5px 8px blue ,-5px -5px 8px blue , -5px +5px 8px blue;
+}
+#skill-section{
+    width: 100%;
+    display: flex; 
+    flex-direction: row;
+    justify-content: stretch;
+}
+.skills{
+    width: 33%;
+    padding: 112px 48px;
+    text-align: center;
+    color: white;
+    box-sizing: border-box;
+}
+#skillH1{
+    
+    text-align: center;
+    color: white;
+    background-color: #912077;
+
+}
+
+.skills img{
+    font-size: 96px;
+    transition: all 0.3s;
+}
+.skills:hover img{
+    transform: scale(1.1, 1.1);
+}
+#address-wrapper{
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-between;
+    padding: 100px 0;
+}
+
+
+
+.section-heading{
+    color: white;
+    font-size: 44px;
+    font-weight: 600;
+    margin: 0;
+}
+
+
+.input-box{
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    font-size: 16px;
+    padding: 16px;
+    color: #8b8b99;
+    border-radius: 6px;
+    border: 1px solid #e5e6ec;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+#btn-submit{
+    font-size: 16px;
+    height: 50px;
+    width: 100%;
+   background-color: antiquewhite;
+    border: 1px solid #e5e6ec;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+#contact-wrapper{
+    background-color: #912077;
+
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding-bottom: 24px;
+}
+.contactP{
+    color: white; 
+    display: inline;
+
+}
+@media (max-width: 800px) {
+    html,body{
+        width: 100%;
+        height: 100%;
+        margin: 0; 
+        padding: 0;
+        overflow-x: hidden
+    }
+    .menu-items{
+        display: none;
+    }
+    #skill-section {
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    .skill-item{
+        width: 100%;
+    }
+
+     
+
+    #address-wrapper {
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        padding: 16px;
+        padding-top: 0;
+        box-sizing: border-box;
+    }
+
+    #address-wrapper > div {
+        width: 100%;
+    }
+
+   
+}

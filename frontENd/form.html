@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+           padding: 24px;
+            height: 620px;
+            width: 300px;
+            margin:auto;
+            background-color: rgba(0,0,0,0.2);
+            box-shadow: 5px 5px 8px blueviolet;
+            border-radius: 15px;
+        }
+    body{
+         /* background-image: url('https://www.moha.gov.np/images/cache/e66443e81e8cc9c4fa5c099a1fb1bb87/455x-KPOli_1_150x150.jpg');
+         background-size: cover;
+         background-repeat: no-repeat; */
+
+    }
+    div{
+        margin: 24px;
+    }
+   
+    </style>
+</head>
+<body>
+    <header style="font-weight: 600; margin-bottom: 24px; text-align: center;">Signup</header>
+    <form id="login-form">
+        <div>
+            
+            Full Name: <br>
+            <input type="text" name="username" id="username"  required>
+        </div>
+        <div> 
+
+            Email: <br>
+            <input type="email" name="email">
+            <br>
+        </div>
+        <div>
+            Age:
+            <br>
+            <input type="number" name="age" id="">
+        </div>
+        <div>
+            Password: <br>
+            <input type="password" name="password">
+        </div>
+        <div>
+            Confirm Password: <br>
+            <input type="password" name="confirm-password" >
+
+        </div>
+        <div>
+            Gender: <br>
+            <input type="radio" name="gender" value="male">Male
+            <input type="radio" name="gender" value="female">Female
+            <input type="radio" name="gender" value="others">others
+        </div>
+        <div>
+            Security Question:
+            <select name="SecurityQuestion"  >
+                <option value="firstPet">Name of the first pet?</option>
+                <option value="firstSchool">Name of the 1st School?</option>
+            </select>
+        </div>
+        <div>
+            <textarea name="answer"  cols="30" rows="4"></textarea>
+        </div>
+        <div>
+            <input type="checkbox" name="terms" value="Accept">I agree to all terms and conditons
+        </div>
+        <div>
+            <input type="submit" value="Register">
+        </div>
+    </form>
+    <script src="/form.js"></script>
+</body>
+</html>
